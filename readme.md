@@ -88,7 +88,7 @@ r.render()
 
 While rendering a view you can output the config as a JSON: 
 ``
-output +=  '<script type="text/javascript">var require = '+ JSON.stringify( this.rconf.render() ) +'</script>';
+output +=  '<script type="text/javascript">var require = '+ JSON.stringify( r.render() ) +'</script>';
 		
 ```
 
