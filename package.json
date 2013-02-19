@@ -1,7 +1,7 @@
 {
   "name": "require-config",
-  "version": "0.0.2",
-  "description": "[WIP] Dynamically generate a require.config object for the client-side",
+  "version": "0.0.3",
+  "description": "Dynamically generate a require.config object for the client-side",
   "author": "makesites",
   "contributors": [
     {
@@ -31,7 +31,7 @@
   	"node": "~0.8.x"
   },
   "dependencies": {
-	  "require-package" : "0.1.0", 
-	  "underscore" : "1.4.4"
+	  "require-package" : "0.1.x", 
+	  "underscore" : "1.4.x"
   }
 }
