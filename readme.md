@@ -68,7 +68,7 @@ Default is ***true***
 
 ```
 // initiate lib
-r = require("require-config")({ cache : false });
+var r = require("require-config")({ cache : false });
 
 // set base folder
 r.set({ baseUrl : "/assets/js" });
@@ -82,7 +82,7 @@ r.deps("//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min");
 r.deps("//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min");
 
 // finally render the js object
-this.rconf.render()
+r.render()
 
 ```
 
