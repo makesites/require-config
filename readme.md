@@ -98,3 +98,11 @@ output +=  '<script type="text/javascript">var require = '+ JSON.stringify( r.re
 * Parse rendered view and include script tags in the configuration 
 
 
+## Credits
+
+Created by: [Makis Tracend](http://github.com/tracend)
+
+Distributed by [Makesites.org](http://makesites.org/)
+
+Released under the [MIT license](http://makesites.org/licenses/MIT)
+
