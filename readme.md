@@ -66,7 +66,7 @@ Default is ***true***
 
 ## Usage
 
-``	`
+```
 // initiate lib
 r = require("require-config")({ cache : false });
 
