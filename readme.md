@@ -3,7 +3,7 @@
 
 A node module to refer to and output (on the server-side) the client side require.js config.
 
-## Scope 
+## Scope
 
 This library is created to accumulate all good efforts around describing an app's dependencies with a require.config object
 
@@ -19,7 +19,7 @@ npm install require-config
 
 ### .deps( script )
 
-Adds a new dependency. Accepted formats for _script_: 
+Adds a new dependency. Accepted formats for _script_:
 * a string: 		"%SOURCE%"
 * an object: 	{ "%NAME%" : "%SOURCE%" }
 * an array: 	[{ "%NAME%" : "%SOURCE%" }, { "%NAME%" : "%SOURCE%" },...]
@@ -27,11 +27,11 @@ Adds a new dependency. Accepted formats for _script_:
 
 ### .shim( name, options )
 
-Setup shims for each javascript file. 
+Setup shims for each javascript file.
 
-The _options_ is not mandatory and if a 'known' shim is found it will always override the options passed. 
+The _options_ is not mandatory and if a 'known' shim is found it will always override the options passed.
 
-In addition, if autoshim is enabled the shim will be enriched by including the previous script in the (individual) deps list. 
+In addition, if autoshim is enabled the shim will be enriched by including the previous script in the (individual) deps list.
 
 
 ### .paths( name, script(s) )
@@ -59,8 +59,8 @@ Default is ***true***
 
 ### autoshim
 
-A boolean option to attempt to automatically create shims for every file. The current implementation is vary basic, basically requiring the previous script in the deps of the each script. A short list of shims for popular js libs is included (in a static form) - more to be included in later releases. 
-  
+A boolean option to attempt to automatically create shims for every file. The current implementation is vary basic, basically requiring the previous script in the deps of the each script. A short list of shims for popular js libs is included (in a static form) - more to be included in later releases.
+
 Default is ***true***
 
 
@@ -78,7 +78,7 @@ r.set({ baseUrl : "/assets/js" });
 // - as a plain string:
 r.deps("//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min");
 
-// - or an object: 
+// - or an object:
 r.deps("//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min");
 
 // finally render the js object
@@ -86,16 +86,16 @@ r.render()
 
 ```
 
-While rendering a view you can output the config as a JSON: 
+While rendering a view you can output the config as a JSON:
 ```
-output +=  '<script type="text/javascript">var require = '+ JSON.stringify( r.render() ) +'</script>';	
+output +=  '<script type="text/javascript">var require = '+ r.render({ string: true }) +'</script>';
 ```
 
 ## Roadmap
 
 * Read config from package.json (using require-package)
 
-* Parse rendered view and include script tags in the configuration 
+* Parse rendered view and include script tags in the configuration
 
 
 ## Credits
