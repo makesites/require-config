@@ -31,7 +31,7 @@
 		"node": "~0.8.x"
 	},
 	"dependencies": {
-		"require-package" : "0.1.x",
-		"underscore" : "1.4.x"
+		"require-package" : "0.1.0",
+		"underscore" : "1.4.4"
 	}
 }
