@@ -32,6 +32,7 @@
 	},
 	"dependencies": {
 		"require-package" : "0.1.0",
-		"underscore" : "1.4.4"
+		"underscore" : "1.4.4",
+		"jsonfn": "0.31.0"
 	}
 }
