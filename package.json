@@ -1,37 +1,37 @@
 {
-  "name": "require-config",
-  "version": "0.0.3",
-  "description": "Dynamically generate a require.config object for the client-side",
-  "author": "makesites",
-  "contributors": [
-    {
-      "name": "Makis Tracend",
-      "email": "makis@makesit.es"
-    }
-  ],
-  "homepage": "http://makesites.org",
-  "keywords": [
-    "node", "require", "config", "js", "script"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/makesites/require-config"
-  },
-  "bugs": {
-    "url": "https://github.com/makesites/require-config/issues"
-  }, 
-  "licenses": [
-    {
-      "type": "MIT License",
-      "url": "http://www.makesites.org/licenses/MIT"
-    }
-  ], 
-  "main": "./index.js",
-  "engines": {
-  	"node": "~0.8.x"
-  },
-  "dependencies": {
-	  "require-package" : "0.1.x", 
-	  "underscore" : "1.4.x"
-  }
+	"name": "require-config",
+	"version": "0.0.3",
+	"description": "Dynamically generate a require.config object for the client-side",
+	"author": "makesites",
+	"contributors": [
+		{
+			"name": "Makis Tracend",
+			"email": "makis@makesit.es"
+		}
+	],
+	"homepage": "http://makesites.org",
+	"keywords": [
+		"node", "require", "config", "js", "script"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/makesites/require-config"
+	},
+	"bugs": {
+		"url": "https://github.com/makesites/require-config/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT License",
+			"url": "http://www.makesites.org/licenses/MIT"
+		}
+	],
+	"main": "./index.js",
+	"engines": {
+		"node": "~0.8.x"
+	},
+	"dependencies": {
+		"require-package" : "0.1.x",
+		"underscore" : "1.4.x"
+	}
 }
