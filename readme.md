@@ -49,6 +49,11 @@ A wilcard method to create any configuration options, not only in ```deps```, ``
 Outputs the whole configuration in a JS object. Accepts no options (currently)
 
 
+### .build()
+
+Like ```render``` but optimizing config for r.js compilation
+
+
 ## Parameters
 
 ### cache
